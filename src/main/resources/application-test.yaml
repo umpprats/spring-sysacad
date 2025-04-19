@@ -1,0 +1,38 @@
+server:
+    port: 8080
+
+spring:
+    jpa:
+        hibernate:
+            ddl-auto: create-drop
+        show-sql: true
+    datasource:
+        url: 
+        username: 
+        password: 
+    
+        driver-class-name: org.postgresql.Driver 
+        hikari:
+            connection-timeout: 30000
+            maximum-pool-size: 3
+            minimum-idle: 2
+            idle-timeout: 120000
+            max-lifetime: 600000
+            pool-name: auth
+            connection-test-query: SELECT 1
+            initialization-fail-timeout: -1
+logging:
+    level:
+        org:
+            springframework:
+                security: DEBUG
+                jwt: DEBUG
+
+management:
+    endpoints:
+        web:
+            exposure:
+                include: '*'
+    endpoint:
+        health:
+            show-details: ALWAYS
