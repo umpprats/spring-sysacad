@@ -5,7 +5,11 @@ Proyecto realizado en **Spring Boot**
 - https://start.spring.io/
 
 ## Requerimientos
+### En windows
 - JDK 21+ (puede ser https://adoptium.net/es/)
+### En Linux
+- Utilizar **sdkman** (https://sdkman.io/) para descargar JDK de varios proveedores y versiones 
+### Base de Datos
 - Servidor de base de datos PostgreSQL
 - Base de datos para entornos: **test**, **development**, **production** 
 
