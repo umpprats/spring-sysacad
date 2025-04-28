@@ -11,7 +11,6 @@ public class FacultadTestCase {
     
     @Test
     public void testFacultad() {
-        // Create a new Facultad object
         Facultad facultad = new Facultad();
         
         facultad.setNombre("Facultad Regional San Rafael");
