@@ -11,7 +11,7 @@ public class AutoridadTestCase {
         
         var autoridad = new Autoridad();
         var cargo = new Cargo();
-        cargo.setNombre("Cargo");
+        cargo.setNombre("Decano");
         cargo.setPuntos(10);
         autoridad.setNombre("Ing. Roberto D. Vilches");
         autoridad.setCargo(cargo);
